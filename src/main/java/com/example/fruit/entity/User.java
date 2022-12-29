@@ -9,19 +9,19 @@ import javax.persistence.Table;
 
 import lombok.Data;
 
-@Entity // vo
-@Data // lombok
-@Table(name = "`USER`")
+@Entity 
+@Data
+@Table(name = "`USER`")//用戶
 public class User {
 
 	@Id
-	@Column(name = "USER_NUMBER")
+	@Column(name = "USER_NUMBER") //用戶編號
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer userNumber;
 	
-	@Column(name = "USER_NAME")
+	@Column(name = "USER_NAME")	 //用戶名稱
 	private String userName;
 	
-	@Column(name = "PASSWORD")
+	@Column(name = "PASSWORD")   //用戶密碼
 	private String password;
 }

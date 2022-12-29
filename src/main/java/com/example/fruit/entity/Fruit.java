@@ -2,18 +2,14 @@ package com.example.fruit.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import org.springframework.web.bind.annotation.RequestBody;
-
 import lombok.Data;
 
-@Entity//vo
-@Data  //lombok
-@Table(name = "`FRUIT`")
+@Entity
+@Data 
+@Table(name = "`FRUIT`")//產品資料表
 public class Fruit {
 	@Id
 	@Column(name = "PRODUCT_NUMBER")//產品編號

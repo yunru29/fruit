@@ -11,17 +11,17 @@ import javax.persistence.Table;
 
 import lombok.Data;
 
-@Entity//vo
-@Data  //lombok
-@Table(name = "`ORDER`")
+@Entity
+@Data 
+@Table(name = "`ORDER`")//訂單
 public class Order {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "ORDER_NUMBER")	//訂單編號
+	@Column(name = "ORDER_NUMBER")						//訂單編號
 	private Integer orderNumber;
 	
-	@Column(name = "USERNAME")//產品編號
+	@Column(name = "USERNAME")							//產品編號
 	private String userName;
 	
 	@Column(name = "ORDER_DATE", insertable = false)	//訂單日期

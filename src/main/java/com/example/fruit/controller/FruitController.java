@@ -7,7 +7,6 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -19,21 +18,19 @@ import com.example.fruit.service.FruitService;
 
 
 @RestController
-@RequestMapping(path = {"/fruit"}) //請求的位置
+@RequestMapping(path = {"/fruit"})
 public class FruitController {
-//因為只有他有網址
 	
 	@Autowired
 	private FruitService fruitService;
-	
+	//列出所有產品資料
 	@GetMapping("/findAll")
-	//定義 method 呼叫 service
 	public List<Fruit> findAll(){
 		return fruitService.findAll();
 	}
-	
+	//購買清單
 	@PostMapping("/buy")
-	public Map<String, Object> buy(@RequestBody List<Detail> list){ //buy(前端傳來想購買的清單)
+	public Map<String, Object> buy(@RequestBody List<Detail> list){ 
 		Map<String, Object> respMap = new HashMap<>();
 		try {
 			int total = fruitService.addOrder(list);					

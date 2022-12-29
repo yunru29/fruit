@@ -76,3 +76,278 @@
 2022-12-30 05:04:33.297 [INFO] [restartedMain] [220] Tomcat started on port(s): 8080 (http) with context path '/springboot-fruit'
 2022-12-30 05:04:33.326 [INFO] [restartedMain] [61] Started FruitApplication in 2.561 seconds (JVM running for 3840.735)
 2022-12-30 05:04:33.328 [INFO] [restartedMain] [63] Condition evaluation unchanged
+2022-12-30 05:08:32.756 [INFO] [File Watcher] [213] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-12-30 05:08:32.759 [INFO] [Thread-87] [173] Stopping service [Tomcat]
+2022-12-30 05:08:32.764 [INFO] [Thread-87] [651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-30 05:08:32.765 [INFO] [Thread-87] [350] HikariPool-22 - Shutdown initiated...
+2022-12-30 05:08:32.767 [INFO] [Thread-87] [352] HikariPool-22 - Shutdown completed.
+2022-12-30 05:08:32.849 [INFO] [restartedMain] [55] Starting FruitApplication using Java 17.0.5 on cengyunrudeMacBook-Air.local with PID 69393 (/Users/carol/Documents/workspace-spring-tool-suite-4-4.17.0.RELEASE/fruit/target/classes started by carol in /Users/carol/Documents/workspace-spring-tool-suite-4-4.17.0.RELEASE/fruit)
+2022-12-30 05:08:32.850 [INFO] [restartedMain] [631] No active profile set, falling back to 1 default profile: "default"
+2022-12-30 05:08:33.303 [INFO] [restartedMain] [132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-30 05:08:33.342 [INFO] [restartedMain] [201] Finished Spring Data repository scanning in 39 ms. Found 4 JPA repository interfaces.
+2022-12-30 05:08:33.536 [INFO] [restartedMain] [108] Tomcat initialized with port(s): 8080 (http)
+2022-12-30 05:08:33.537 [INFO] [restartedMain] [173] Starting service [Tomcat]
+2022-12-30 05:08:33.537 [INFO] [restartedMain] [173] Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-30 05:08:33.549 [INFO] [restartedMain] [173] Initializing Spring embedded WebApplicationContext
+2022-12-30 05:08:33.550 [INFO] [restartedMain] [292] Root WebApplicationContext: initialization completed in 698 ms
+2022-12-30 05:08:33.712 [INFO] [restartedMain] [110] HikariPool-23 - Starting...
+2022-12-30 05:08:33.983 [INFO] [restartedMain] [123] HikariPool-23 - Start completed.
+2022-12-30 05:08:33.989 [INFO] [restartedMain] [31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-30 05:08:33.994 [INFO] [restartedMain] [175] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-12-30 05:08:34.073 [INFO] [restartedMain] [52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-30 05:08:34.073 [INFO] [restartedMain] [437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-30 05:08:34.501 [WARN] [restartedMain] [219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-30 05:08:34.772 [INFO] [restartedMain] [59] LiveReload server is running on port 35729
+2022-12-30 05:08:34.899 [INFO] [restartedMain] [220] Tomcat started on port(s): 8080 (http) with context path '/springboot-fruit'
+2022-12-30 05:08:34.928 [INFO] [restartedMain] [61] Started FruitApplication in 2.101 seconds (JVM running for 4082.341)
+2022-12-30 05:08:34.933 [INFO] [restartedMain] [63] Condition evaluation unchanged
+2022-12-30 05:09:06.435 [INFO] [File Watcher] [213] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-12-30 05:09:06.439 [INFO] [Thread-91] [173] Stopping service [Tomcat]
+2022-12-30 05:09:06.443 [INFO] [Thread-91] [651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-30 05:09:06.443 [INFO] [Thread-91] [350] HikariPool-23 - Shutdown initiated...
+2022-12-30 05:09:06.445 [INFO] [Thread-91] [352] HikariPool-23 - Shutdown completed.
+2022-12-30 05:09:06.537 [INFO] [restartedMain] [55] Starting FruitApplication using Java 17.0.5 on cengyunrudeMacBook-Air.local with PID 69393 (/Users/carol/Documents/workspace-spring-tool-suite-4-4.17.0.RELEASE/fruit/target/classes started by carol in /Users/carol/Documents/workspace-spring-tool-suite-4-4.17.0.RELEASE/fruit)
+2022-12-30 05:09:06.538 [INFO] [restartedMain] [631] No active profile set, falling back to 1 default profile: "default"
+2022-12-30 05:09:06.955 [INFO] [restartedMain] [132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-30 05:09:06.968 [INFO] [restartedMain] [201] Finished Spring Data repository scanning in 12 ms. Found 4 JPA repository interfaces.
+2022-12-30 05:09:07.306 [INFO] [restartedMain] [108] Tomcat initialized with port(s): 8080 (http)
+2022-12-30 05:09:07.307 [INFO] [restartedMain] [173] Starting service [Tomcat]
+2022-12-30 05:09:07.307 [INFO] [restartedMain] [173] Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-30 05:09:07.319 [INFO] [restartedMain] [173] Initializing Spring embedded WebApplicationContext
+2022-12-30 05:09:07.319 [INFO] [restartedMain] [292] Root WebApplicationContext: initialization completed in 780 ms
+2022-12-30 05:09:07.427 [INFO] [restartedMain] [110] HikariPool-24 - Starting...
+2022-12-30 05:09:07.701 [INFO] [restartedMain] [123] HikariPool-24 - Start completed.
+2022-12-30 05:09:07.704 [INFO] [restartedMain] [31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-30 05:09:07.708 [INFO] [restartedMain] [175] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-12-30 05:09:07.798 [INFO] [restartedMain] [52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-30 05:09:07.799 [INFO] [restartedMain] [437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-30 05:09:08.363 [WARN] [restartedMain] [219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-30 05:09:08.672 [INFO] [restartedMain] [59] LiveReload server is running on port 35729
+2022-12-30 05:09:08.779 [INFO] [restartedMain] [220] Tomcat started on port(s): 8080 (http) with context path '/springboot-fruit'
+2022-12-30 05:09:08.824 [INFO] [restartedMain] [61] Started FruitApplication in 2.314 seconds (JVM running for 4116.236)
+2022-12-30 05:09:08.830 [INFO] [restartedMain] [63] Condition evaluation unchanged
+2022-12-30 05:09:17.145 [INFO] [File Watcher] [213] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-12-30 05:09:17.148 [INFO] [Thread-95] [173] Stopping service [Tomcat]
+2022-12-30 05:09:17.153 [INFO] [Thread-95] [651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-30 05:09:17.154 [INFO] [Thread-95] [350] HikariPool-24 - Shutdown initiated...
+2022-12-30 05:09:17.156 [INFO] [Thread-95] [352] HikariPool-24 - Shutdown completed.
+2022-12-30 05:09:17.253 [INFO] [restartedMain] [55] Starting FruitApplication using Java 17.0.5 on cengyunrudeMacBook-Air.local with PID 69393 (/Users/carol/Documents/workspace-spring-tool-suite-4-4.17.0.RELEASE/fruit/target/classes started by carol in /Users/carol/Documents/workspace-spring-tool-suite-4-4.17.0.RELEASE/fruit)
+2022-12-30 05:09:17.254 [INFO] [restartedMain] [631] No active profile set, falling back to 1 default profile: "default"
+2022-12-30 05:09:17.639 [INFO] [restartedMain] [132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-30 05:09:17.698 [INFO] [restartedMain] [201] Finished Spring Data repository scanning in 58 ms. Found 4 JPA repository interfaces.
+2022-12-30 05:09:17.890 [INFO] [restartedMain] [108] Tomcat initialized with port(s): 8080 (http)
+2022-12-30 05:09:17.891 [INFO] [restartedMain] [173] Starting service [Tomcat]
+2022-12-30 05:09:17.892 [INFO] [restartedMain] [173] Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-30 05:09:17.907 [INFO] [restartedMain] [173] Initializing Spring embedded WebApplicationContext
+2022-12-30 05:09:17.908 [INFO] [restartedMain] [292] Root WebApplicationContext: initialization completed in 652 ms
+2022-12-30 05:09:17.981 [INFO] [restartedMain] [110] HikariPool-25 - Starting...
+2022-12-30 05:09:18.149 [INFO] [restartedMain] [123] HikariPool-25 - Start completed.
+2022-12-30 05:09:18.153 [INFO] [restartedMain] [31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-30 05:09:18.158 [INFO] [restartedMain] [175] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-12-30 05:09:18.228 [INFO] [restartedMain] [52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-30 05:09:18.230 [INFO] [restartedMain] [437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-30 05:09:18.852 [WARN] [restartedMain] [219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-30 05:09:19.178 [INFO] [restartedMain] [59] LiveReload server is running on port 35729
+2022-12-30 05:09:19.194 [INFO] [restartedMain] [220] Tomcat started on port(s): 8080 (http) with context path '/springboot-fruit'
+2022-12-30 05:09:19.202 [INFO] [restartedMain] [61] Started FruitApplication in 1.974 seconds (JVM running for 4126.615)
+2022-12-30 05:09:19.204 [INFO] [restartedMain] [63] Condition evaluation unchanged
+2022-12-30 05:10:15.060 [INFO] [File Watcher] [213] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-12-30 05:10:15.063 [INFO] [Thread-99] [173] Stopping service [Tomcat]
+2022-12-30 05:10:15.067 [INFO] [Thread-99] [651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-30 05:10:15.068 [INFO] [Thread-99] [350] HikariPool-25 - Shutdown initiated...
+2022-12-30 05:10:15.069 [INFO] [Thread-99] [352] HikariPool-25 - Shutdown completed.
+2022-12-30 05:10:15.354 [INFO] [restartedMain] [55] Starting FruitApplication using Java 17.0.5 on cengyunrudeMacBook-Air.local with PID 69393 (/Users/carol/Documents/workspace-spring-tool-suite-4-4.17.0.RELEASE/fruit/target/classes started by carol in /Users/carol/Documents/workspace-spring-tool-suite-4-4.17.0.RELEASE/fruit)
+2022-12-30 05:10:15.354 [INFO] [restartedMain] [631] No active profile set, falling back to 1 default profile: "default"
+2022-12-30 05:10:15.713 [INFO] [restartedMain] [132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-30 05:10:15.749 [INFO] [restartedMain] [201] Finished Spring Data repository scanning in 33 ms. Found 4 JPA repository interfaces.
+2022-12-30 05:10:16.066 [INFO] [restartedMain] [108] Tomcat initialized with port(s): 8080 (http)
+2022-12-30 05:10:16.067 [INFO] [restartedMain] [173] Starting service [Tomcat]
+2022-12-30 05:10:16.068 [INFO] [restartedMain] [173] Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-30 05:10:16.107 [INFO] [restartedMain] [173] Initializing Spring embedded WebApplicationContext
+2022-12-30 05:10:16.108 [INFO] [restartedMain] [292] Root WebApplicationContext: initialization completed in 753 ms
+2022-12-30 05:10:16.217 [INFO] [restartedMain] [110] HikariPool-26 - Starting...
+2022-12-30 05:10:16.481 [INFO] [restartedMain] [123] HikariPool-26 - Start completed.
+2022-12-30 05:10:16.484 [INFO] [restartedMain] [31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-30 05:10:16.489 [INFO] [restartedMain] [175] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-12-30 05:10:16.653 [INFO] [restartedMain] [52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-30 05:10:16.657 [INFO] [restartedMain] [437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-30 05:10:17.223 [WARN] [restartedMain] [219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-30 05:10:17.633 [INFO] [restartedMain] [59] LiveReload server is running on port 35729
+2022-12-30 05:10:17.697 [INFO] [restartedMain] [220] Tomcat started on port(s): 8080 (http) with context path '/springboot-fruit'
+2022-12-30 05:10:17.710 [INFO] [restartedMain] [61] Started FruitApplication in 2.579 seconds (JVM running for 4185.124)
+2022-12-30 05:10:17.715 [INFO] [restartedMain] [63] Condition evaluation unchanged
+2022-12-30 05:11:18.556 [INFO] [File Watcher] [213] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-12-30 05:11:18.560 [INFO] [Thread-103] [173] Stopping service [Tomcat]
+2022-12-30 05:11:18.566 [INFO] [Thread-103] [651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-30 05:11:18.566 [INFO] [Thread-103] [350] HikariPool-26 - Shutdown initiated...
+2022-12-30 05:11:18.568 [INFO] [Thread-103] [352] HikariPool-26 - Shutdown completed.
+2022-12-30 05:11:18.669 [INFO] [restartedMain] [55] Starting FruitApplication using Java 17.0.5 on cengyunrudeMacBook-Air.local with PID 69393 (/Users/carol/Documents/workspace-spring-tool-suite-4-4.17.0.RELEASE/fruit/target/classes started by carol in /Users/carol/Documents/workspace-spring-tool-suite-4-4.17.0.RELEASE/fruit)
+2022-12-30 05:11:18.669 [INFO] [restartedMain] [631] No active profile set, falling back to 1 default profile: "default"
+2022-12-30 05:11:19.163 [INFO] [restartedMain] [132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-30 05:11:19.254 [INFO] [restartedMain] [201] Finished Spring Data repository scanning in 90 ms. Found 4 JPA repository interfaces.
+2022-12-30 05:11:19.539 [INFO] [restartedMain] [108] Tomcat initialized with port(s): 8080 (http)
+2022-12-30 05:11:19.540 [INFO] [restartedMain] [173] Starting service [Tomcat]
+2022-12-30 05:11:19.540 [INFO] [restartedMain] [173] Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-30 05:11:19.552 [INFO] [restartedMain] [173] Initializing Spring embedded WebApplicationContext
+2022-12-30 05:11:19.552 [INFO] [restartedMain] [292] Root WebApplicationContext: initialization completed in 881 ms
+2022-12-30 05:11:19.693 [INFO] [restartedMain] [110] HikariPool-27 - Starting...
+2022-12-30 05:11:19.940 [INFO] [restartedMain] [123] HikariPool-27 - Start completed.
+2022-12-30 05:11:19.944 [INFO] [restartedMain] [31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-30 05:11:19.949 [INFO] [restartedMain] [175] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-12-30 05:11:20.114 [INFO] [restartedMain] [52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-30 05:11:20.114 [INFO] [restartedMain] [437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-30 05:11:20.647 [WARN] [restartedMain] [219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-30 05:11:21.071 [INFO] [restartedMain] [59] LiveReload server is running on port 35729
+2022-12-30 05:11:21.144 [INFO] [restartedMain] [220] Tomcat started on port(s): 8080 (http) with context path '/springboot-fruit'
+2022-12-30 05:11:21.159 [INFO] [restartedMain] [61] Started FruitApplication in 2.515 seconds (JVM running for 4248.573)
+2022-12-30 05:11:21.161 [INFO] [restartedMain] [63] Condition evaluation unchanged
+2022-12-30 05:12:08.875 [INFO] [File Watcher] [213] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-12-30 05:12:08.878 [INFO] [Thread-107] [173] Stopping service [Tomcat]
+2022-12-30 05:12:08.882 [INFO] [Thread-107] [651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-30 05:12:08.882 [INFO] [Thread-107] [350] HikariPool-27 - Shutdown initiated...
+2022-12-30 05:12:08.884 [INFO] [Thread-107] [352] HikariPool-27 - Shutdown completed.
+2022-12-30 05:12:08.973 [INFO] [restartedMain] [55] Starting FruitApplication using Java 17.0.5 on cengyunrudeMacBook-Air.local with PID 69393 (/Users/carol/Documents/workspace-spring-tool-suite-4-4.17.0.RELEASE/fruit/target/classes started by carol in /Users/carol/Documents/workspace-spring-tool-suite-4-4.17.0.RELEASE/fruit)
+2022-12-30 05:12:08.973 [INFO] [restartedMain] [631] No active profile set, falling back to 1 default profile: "default"
+2022-12-30 05:12:09.263 [INFO] [restartedMain] [132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-30 05:12:09.307 [INFO] [restartedMain] [201] Finished Spring Data repository scanning in 28 ms. Found 4 JPA repository interfaces.
+2022-12-30 05:12:09.576 [INFO] [restartedMain] [108] Tomcat initialized with port(s): 8080 (http)
+2022-12-30 05:12:09.577 [INFO] [restartedMain] [173] Starting service [Tomcat]
+2022-12-30 05:12:09.578 [INFO] [restartedMain] [173] Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-30 05:12:09.628 [INFO] [restartedMain] [173] Initializing Spring embedded WebApplicationContext
+2022-12-30 05:12:09.628 [INFO] [restartedMain] [292] Root WebApplicationContext: initialization completed in 653 ms
+2022-12-30 05:12:09.711 [INFO] [restartedMain] [110] HikariPool-28 - Starting...
+2022-12-30 05:12:09.872 [INFO] [restartedMain] [123] HikariPool-28 - Start completed.
+2022-12-30 05:12:09.876 [INFO] [restartedMain] [31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-30 05:12:09.880 [INFO] [restartedMain] [175] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-12-30 05:12:09.961 [INFO] [restartedMain] [52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-30 05:12:09.962 [INFO] [restartedMain] [437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-30 05:12:10.236 [WARN] [restartedMain] [219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-30 05:12:10.548 [INFO] [restartedMain] [59] LiveReload server is running on port 35729
+2022-12-30 05:12:10.574 [INFO] [restartedMain] [220] Tomcat started on port(s): 8080 (http) with context path '/springboot-fruit'
+2022-12-30 05:12:10.590 [INFO] [restartedMain] [61] Started FruitApplication in 1.641 seconds (JVM running for 4298.006)
+2022-12-30 05:12:10.592 [INFO] [restartedMain] [63] Condition evaluation unchanged
+2022-12-30 05:12:57.410 [INFO] [File Watcher] [213] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-12-30 05:12:57.414 [INFO] [Thread-111] [173] Stopping service [Tomcat]
+2022-12-30 05:12:57.418 [INFO] [Thread-111] [651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-30 05:12:57.419 [INFO] [Thread-111] [350] HikariPool-28 - Shutdown initiated...
+2022-12-30 05:12:57.420 [INFO] [Thread-111] [352] HikariPool-28 - Shutdown completed.
+2022-12-30 05:12:57.512 [INFO] [restartedMain] [55] Starting FruitApplication using Java 17.0.5 on cengyunrudeMacBook-Air.local with PID 69393 (/Users/carol/Documents/workspace-spring-tool-suite-4-4.17.0.RELEASE/fruit/target/classes started by carol in /Users/carol/Documents/workspace-spring-tool-suite-4-4.17.0.RELEASE/fruit)
+2022-12-30 05:12:57.513 [INFO] [restartedMain] [631] No active profile set, falling back to 1 default profile: "default"
+2022-12-30 05:12:57.839 [INFO] [restartedMain] [132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-30 05:12:57.858 [INFO] [restartedMain] [201] Finished Spring Data repository scanning in 18 ms. Found 4 JPA repository interfaces.
+2022-12-30 05:12:58.291 [INFO] [restartedMain] [108] Tomcat initialized with port(s): 8080 (http)
+2022-12-30 05:12:58.292 [INFO] [restartedMain] [173] Starting service [Tomcat]
+2022-12-30 05:12:58.292 [INFO] [restartedMain] [173] Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-30 05:12:58.304 [INFO] [restartedMain] [173] Initializing Spring embedded WebApplicationContext
+2022-12-30 05:12:58.304 [INFO] [restartedMain] [292] Root WebApplicationContext: initialization completed in 789 ms
+2022-12-30 05:12:58.402 [INFO] [restartedMain] [110] HikariPool-29 - Starting...
+2022-12-30 05:12:58.781 [INFO] [restartedMain] [123] HikariPool-29 - Start completed.
+2022-12-30 05:12:58.784 [INFO] [restartedMain] [31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-30 05:12:58.788 [INFO] [restartedMain] [175] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-12-30 05:12:58.859 [INFO] [restartedMain] [52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-30 05:12:58.860 [INFO] [restartedMain] [437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-30 05:12:59.407 [WARN] [restartedMain] [219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-30 05:12:59.674 [INFO] [restartedMain] [59] LiveReload server is running on port 35729
+2022-12-30 05:12:59.708 [INFO] [restartedMain] [220] Tomcat started on port(s): 8080 (http) with context path '/springboot-fruit'
+2022-12-30 05:12:59.718 [INFO] [restartedMain] [61] Started FruitApplication in 2.233 seconds (JVM running for 4347.134)
+2022-12-30 05:12:59.719 [INFO] [restartedMain] [63] Condition evaluation unchanged
+2022-12-30 05:13:57.587 [INFO] [File Watcher] [213] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-12-30 05:13:57.590 [INFO] [Thread-115] [173] Stopping service [Tomcat]
+2022-12-30 05:13:57.593 [INFO] [Thread-115] [651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-30 05:13:57.594 [INFO] [Thread-115] [350] HikariPool-29 - Shutdown initiated...
+2022-12-30 05:13:57.595 [INFO] [Thread-115] [352] HikariPool-29 - Shutdown completed.
+2022-12-30 05:13:57.878 [INFO] [restartedMain] [55] Starting FruitApplication using Java 17.0.5 on cengyunrudeMacBook-Air.local with PID 69393 (/Users/carol/Documents/workspace-spring-tool-suite-4-4.17.0.RELEASE/fruit/target/classes started by carol in /Users/carol/Documents/workspace-spring-tool-suite-4-4.17.0.RELEASE/fruit)
+2022-12-30 05:13:57.878 [INFO] [restartedMain] [631] No active profile set, falling back to 1 default profile: "default"
+2022-12-30 05:13:58.053 [INFO] [restartedMain] [132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-30 05:13:58.073 [INFO] [restartedMain] [201] Finished Spring Data repository scanning in 18 ms. Found 4 JPA repository interfaces.
+2022-12-30 05:13:58.339 [INFO] [restartedMain] [108] Tomcat initialized with port(s): 8080 (http)
+2022-12-30 05:13:58.340 [INFO] [restartedMain] [173] Starting service [Tomcat]
+2022-12-30 05:13:58.340 [INFO] [restartedMain] [173] Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-30 05:13:58.352 [INFO] [restartedMain] [173] Initializing Spring embedded WebApplicationContext
+2022-12-30 05:13:58.352 [INFO] [restartedMain] [292] Root WebApplicationContext: initialization completed in 471 ms
+2022-12-30 05:13:58.493 [INFO] [restartedMain] [110] HikariPool-30 - Starting...
+2022-12-30 05:13:58.731 [INFO] [restartedMain] [123] HikariPool-30 - Start completed.
+2022-12-30 05:13:58.736 [INFO] [restartedMain] [31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-30 05:13:58.740 [INFO] [restartedMain] [175] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-12-30 05:13:58.833 [INFO] [restartedMain] [52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-30 05:13:58.833 [INFO] [restartedMain] [437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-30 05:13:59.227 [WARN] [restartedMain] [219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-30 05:13:59.484 [INFO] [restartedMain] [59] LiveReload server is running on port 35729
+2022-12-30 05:13:59.513 [INFO] [restartedMain] [220] Tomcat started on port(s): 8080 (http) with context path '/springboot-fruit'
+2022-12-30 05:13:59.522 [INFO] [restartedMain] [61] Started FruitApplication in 1.87 seconds (JVM running for 4406.939)
+2022-12-30 05:13:59.524 [INFO] [restartedMain] [63] Condition evaluation unchanged
+2022-12-30 05:14:10.975 [INFO] [File Watcher] [213] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-12-30 05:14:10.978 [INFO] [Thread-119] [173] Stopping service [Tomcat]
+2022-12-30 05:14:10.983 [INFO] [Thread-119] [651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-30 05:14:10.983 [INFO] [Thread-119] [350] HikariPool-30 - Shutdown initiated...
+2022-12-30 05:14:10.986 [INFO] [Thread-119] [352] HikariPool-30 - Shutdown completed.
+2022-12-30 05:14:11.087 [INFO] [restartedMain] [55] Starting FruitApplication using Java 17.0.5 on cengyunrudeMacBook-Air.local with PID 69393 (/Users/carol/Documents/workspace-spring-tool-suite-4-4.17.0.RELEASE/fruit/target/classes started by carol in /Users/carol/Documents/workspace-spring-tool-suite-4-4.17.0.RELEASE/fruit)
+2022-12-30 05:14:11.087 [INFO] [restartedMain] [631] No active profile set, falling back to 1 default profile: "default"
+2022-12-30 05:14:11.554 [INFO] [restartedMain] [132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-30 05:14:11.581 [INFO] [restartedMain] [201] Finished Spring Data repository scanning in 26 ms. Found 4 JPA repository interfaces.
+2022-12-30 05:14:11.873 [INFO] [restartedMain] [108] Tomcat initialized with port(s): 8080 (http)
+2022-12-30 05:14:11.878 [INFO] [restartedMain] [173] Starting service [Tomcat]
+2022-12-30 05:14:11.879 [INFO] [restartedMain] [173] Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-30 05:14:11.892 [INFO] [restartedMain] [173] Initializing Spring embedded WebApplicationContext
+2022-12-30 05:14:11.893 [INFO] [restartedMain] [292] Root WebApplicationContext: initialization completed in 803 ms
+2022-12-30 05:14:11.982 [INFO] [restartedMain] [110] HikariPool-31 - Starting...
+2022-12-30 05:14:12.298 [INFO] [restartedMain] [123] HikariPool-31 - Start completed.
+2022-12-30 05:14:12.302 [INFO] [restartedMain] [31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-30 05:14:12.308 [INFO] [restartedMain] [175] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-12-30 05:14:12.368 [INFO] [restartedMain] [52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-30 05:14:12.368 [INFO] [restartedMain] [437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-30 05:14:12.863 [WARN] [restartedMain] [219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-30 05:14:13.175 [INFO] [restartedMain] [59] LiveReload server is running on port 35729
+2022-12-30 05:14:13.303 [INFO] [restartedMain] [220] Tomcat started on port(s): 8080 (http) with context path '/springboot-fruit'
+2022-12-30 05:14:13.318 [INFO] [restartedMain] [61] Started FruitApplication in 2.257 seconds (JVM running for 4420.735)
+2022-12-30 05:14:13.347 [INFO] [restartedMain] [63] Condition evaluation unchanged
+2022-12-30 05:15:15.160 [INFO] [File Watcher] [213] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-12-30 05:15:15.163 [INFO] [Thread-123] [173] Stopping service [Tomcat]
+2022-12-30 05:15:15.168 [INFO] [Thread-123] [651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-30 05:15:15.168 [INFO] [Thread-123] [350] HikariPool-31 - Shutdown initiated...
+2022-12-30 05:15:15.170 [INFO] [Thread-123] [352] HikariPool-31 - Shutdown completed.
+2022-12-30 05:15:15.262 [INFO] [restartedMain] [55] Starting FruitApplication using Java 17.0.5 on cengyunrudeMacBook-Air.local with PID 69393 (/Users/carol/Documents/workspace-spring-tool-suite-4-4.17.0.RELEASE/fruit/target/classes started by carol in /Users/carol/Documents/workspace-spring-tool-suite-4-4.17.0.RELEASE/fruit)
+2022-12-30 05:15:15.263 [INFO] [restartedMain] [631] No active profile set, falling back to 1 default profile: "default"
+2022-12-30 05:15:15.554 [INFO] [restartedMain] [132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-30 05:15:15.582 [INFO] [restartedMain] [201] Finished Spring Data repository scanning in 27 ms. Found 4 JPA repository interfaces.
+2022-12-30 05:15:15.863 [INFO] [restartedMain] [108] Tomcat initialized with port(s): 8080 (http)
+2022-12-30 05:15:15.864 [INFO] [restartedMain] [173] Starting service [Tomcat]
+2022-12-30 05:15:15.864 [INFO] [restartedMain] [173] Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-30 05:15:15.894 [INFO] [restartedMain] [173] Initializing Spring embedded WebApplicationContext
+2022-12-30 05:15:15.894 [INFO] [restartedMain] [292] Root WebApplicationContext: initialization completed in 629 ms
+2022-12-30 05:15:16.066 [INFO] [restartedMain] [110] HikariPool-32 - Starting...
+2022-12-30 05:15:16.355 [INFO] [restartedMain] [123] HikariPool-32 - Start completed.
+2022-12-30 05:15:16.359 [INFO] [restartedMain] [31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-30 05:15:16.364 [INFO] [restartedMain] [175] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-12-30 05:15:16.483 [INFO] [restartedMain] [52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-30 05:15:16.487 [INFO] [restartedMain] [437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-30 05:15:16.971 [WARN] [restartedMain] [219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-30 05:15:17.304 [INFO] [restartedMain] [59] LiveReload server is running on port 35729
+2022-12-30 05:15:17.335 [INFO] [restartedMain] [220] Tomcat started on port(s): 8080 (http) with context path '/springboot-fruit'
+2022-12-30 05:15:17.347 [INFO] [restartedMain] [61] Started FruitApplication in 2.113 seconds (JVM running for 4484.765)
+2022-12-30 05:15:17.349 [INFO] [restartedMain] [63] Condition evaluation unchanged
+2022-12-30 05:18:03.318 [INFO] [File Watcher] [213] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-12-30 05:18:03.324 [INFO] [Thread-127] [173] Stopping service [Tomcat]
+2022-12-30 05:18:03.329 [INFO] [Thread-127] [651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-30 05:18:03.330 [INFO] [Thread-127] [350] HikariPool-32 - Shutdown initiated...
+2022-12-30 05:18:03.332 [INFO] [Thread-127] [352] HikariPool-32 - Shutdown completed.
+2022-12-30 05:18:03.590 [INFO] [restartedMain] [55] Starting FruitApplication using Java 17.0.5 on cengyunrudeMacBook-Air.local with PID 69393 (/Users/carol/Documents/workspace-spring-tool-suite-4-4.17.0.RELEASE/fruit/target/classes started by carol in /Users/carol/Documents/workspace-spring-tool-suite-4-4.17.0.RELEASE/fruit)
+2022-12-30 05:18:03.590 [INFO] [restartedMain] [631] No active profile set, falling back to 1 default profile: "default"
+2022-12-30 05:18:03.923 [INFO] [restartedMain] [132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-30 05:18:03.953 [INFO] [restartedMain] [201] Finished Spring Data repository scanning in 29 ms. Found 4 JPA repository interfaces.
+2022-12-30 05:18:04.245 [INFO] [restartedMain] [108] Tomcat initialized with port(s): 8080 (http)
+2022-12-30 05:18:04.245 [INFO] [restartedMain] [173] Starting service [Tomcat]
+2022-12-30 05:18:04.245 [INFO] [restartedMain] [173] Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-30 05:18:04.275 [INFO] [restartedMain] [173] Initializing Spring embedded WebApplicationContext
+2022-12-30 05:18:04.276 [INFO] [restartedMain] [292] Root WebApplicationContext: initialization completed in 683 ms
+2022-12-30 05:18:04.400 [INFO] [restartedMain] [110] HikariPool-33 - Starting...
+2022-12-30 05:18:04.565 [INFO] [restartedMain] [123] HikariPool-33 - Start completed.
+2022-12-30 05:18:04.628 [INFO] [restartedMain] [31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-30 05:18:04.656 [INFO] [restartedMain] [175] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-12-30 05:18:04.746 [INFO] [restartedMain] [52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-30 05:18:04.751 [INFO] [restartedMain] [437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-30 05:18:05.156 [WARN] [restartedMain] [219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-30 05:18:05.374 [INFO] [restartedMain] [59] LiveReload server is running on port 35729
+2022-12-30 05:18:05.390 [INFO] [restartedMain] [220] Tomcat started on port(s): 8080 (http) with context path '/springboot-fruit'
+2022-12-30 05:18:05.409 [INFO] [restartedMain] [61] Started FruitApplication in 2.009 seconds (JVM running for 4652.83)
+2022-12-30 05:18:05.414 [INFO] [restartedMain] [63] Condition evaluation unchanged

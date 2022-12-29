@@ -29,7 +29,7 @@ public class FruitService {
 	}
 	
 	@Transactional
-	//拿編號取出單價 判斷null
+	
 	public Integer addOrder(List<Detail> list){
 		if (list == null || list.isEmpty()) {
 			return -1;
@@ -37,16 +37,16 @@ public class FruitService {
 		int total = 0;
 		Order order = new Order();
 		order.setUserName("王小明");
-		orderRepository.save(order);
-		for (Detail detail : list) { 	//前端購買訂單 //每次拿出一筆detail
-			Optional<Fruit> optional = fruitRepository.findById(detail.getProductNumber());	//值的容器 會回傳布林值
-			if (optional.isPresent()) { //檢查值是否存在
+		orderRepository.save(order);//新增訂單
+		for (Detail detail : list) { 
+			Optional<Fruit> optional = fruitRepository.findById(detail.getProductNumber());//取單筆
+			if (optional.isPresent()) { 
 				Fruit fruit = optional.get();
-				Integer price = fruit.getProductPrice();//單價
-				Integer quantity = detail.getQuantity();//數量
+				Integer price = fruit.getProductPrice();
+				Integer quantity = detail.getQuantity();
 				total += price * quantity;		
 				detail.setOrderNumber(order.getOrderNumber());
-				detailRepository.save(detail);	
+				detailRepository.save(detail);//新增明細
 			} else {
 				throw new RuntimeException("無此商品");
 			}

@@ -14,12 +14,13 @@ import com.example.fruit.service.FruitService;
 import com.example.fruit.service.UserService;
 
 @RestController
-@RequestMapping(path = {"/user"}) //請求的位置
+@RequestMapping(path = {"/user"})
 public class UserController {
 
 	@Autowired
 	private UserService userService;
 	
+	//註冊會員
 	@PostMapping("/register")
 	public Map<String, Object> register(@RequestBody User user){
 		Map<String, Object> respMap = new HashMap<>();

@@ -11,6 +11,7 @@ public class UserService {
 	@Autowired
 	private UserRepository userRepository;
 	
+	//註冊會員
 	public String register(User user){
 		if (user == null) {
 			return "註冊失敗";
